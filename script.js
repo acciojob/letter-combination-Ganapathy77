@@ -34,6 +34,6 @@ function letterCombinations(input_digit) {
   return result.sort();
 }
 
-console.log(letterCombinations("999"))
+// console.log(letterCombinations("999"))
 
-// module.exports = letterCombinations;
+module.exports = letterCombinations;
