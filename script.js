@@ -7,7 +7,7 @@ const lookup = {
   6 : ['m','n','o'],
   7 : ['p', 'q', 'r', 's'],
   8 : ['t', 'u', 'v'],
-  9 : ['x', 'y', 'z'],
+  9 : ['w','x', 'y', 'z'],
   0 : ['0']
 }
 function letterCombinations(input_digit) {
@@ -34,6 +34,6 @@ function letterCombinations(input_digit) {
   return result.sort();
 }
 
-// console.log(letterCombinations("22"))
+console.log(letterCombinations("999"))
 
-module.exports = letterCombinations;
+// module.exports = letterCombinations;
